@@ -1,0 +1,70 @@
+{
+  "name": "youtube-pickup",
+  "version": "0.0.1",
+  "description": "youtube-pickup",
+  "license": "MIT",
+  "repository": "",
+  "author": {
+    "name": "Horace Lee",
+    "email": "horacehylee2@gmail.com"
+  },
+  "keywords": [
+    "chrome",
+    "youtube",
+    "extension"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "yarn clean",
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch",
+    "test": "jest",
+    "test:watch": "jest --watch --env=jsdom"
+  },
+  "dependencies": {
+    "dot-prop": "^4.2.0",
+    "select-dom": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.21",
+    "@types/chrome": "^0.0.69",
+    "@types/dot-prop": "^4.2.0",
+    "@types/jest": "^22.0.1",
+    "@types/node": "^8.0.0",
+    "bluebird": "^3.5.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "coveralls": "^2.0.0",
+    "dom-testing-library": "^3.0.0",
+    "jest": "^22.0.4",
+    "jest-dom": "^1.8.1",
+    "prettier": "^1.5.2",
+    "rimraf": "^2.0.0",
+    "ts-jest": "^22.0.1",
+    "ts-loader": "^4.4.2",
+    "ts-node": "^3.2.0",
+    "tslint": "^5.0.0",
+    "tslint-config-prettier": "^1.1.0",
+    "typescript": "^2.3.0",
+    "webpack": "^4.16.0",
+    "webpack-command": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "jest": {
+    "transform": {
+      ".(ts)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testEnvironment": "node"
+  }
+}

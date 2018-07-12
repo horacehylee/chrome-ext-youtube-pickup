@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectVideo should select videoId element 1`] = `
+<a
+  aria-hidden="true"
+  class="yt-simple-endpoint inline-block style-scope ytd-thumbnail"
+  href="/watch?v=sLgKXX0FrJo"
+  id="thumbnail"
+  rel="null"
+  tabindex="-1"
+>
+  
+                            
+  <yt-img-shadow
+    class="style-scope ytd-thumbnail no-transition"
+    loaded=""
+    style="background-color: transparent;"
+  >
+    
+                              
+    <img
+      alt=""
+      class="style-scope yt-img-shadow"
+      id="img"
+      src="https://i.ytimg.com/vi/sLgKXX0FrJo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAhX9R61CoQRp-RQI2eNVDae-nO8Q"
+      width="246"
+    />
+    
+                            
+  </yt-img-shadow>
+  
+
+                            
+  <div
+    class="style-scope ytd-thumbnail"
+    id="overlays"
+  >
+    
+                              
+    <ytd-thumbnail-overlay-time-status-renderer
+      class="style-scope ytd-thumbnail"
+      overlay-style="DEFAULT"
+    >
+      
+                                
+      <span
+        aria-label="9 minutes, 48 seconds"
+        class="style-scope ytd-thumbnail-overlay-time-status-renderer"
+      >
+        
+                                  9:48
+                                
+      </span>
+      
+                              
+    </ytd-thumbnail-overlay-time-status-renderer>
+    
+                            
+  </div>
+  
+                            
+  <div
+    class="style-scope ytd-thumbnail"
+    id="mouseover-overlay"
+  />
+  
+                            
+  <div
+    class="style-scope ytd-thumbnail"
+    id="hover-overlays"
+  />
+  
+                          
+</a>
+`;

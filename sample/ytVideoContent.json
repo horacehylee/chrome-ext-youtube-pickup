@@ -1,0 +1,424 @@
+{
+  "itemSectionRenderer": {
+    "contents": [
+      {
+        "shelfRenderer": {
+          "title": { "simpleText": "KatherineOfSky" },
+          "thumbnail": {
+            "thumbnails": [
+              {
+                "url":
+                  "https://yt3.ggpht.com/a-/ACSszfGzXohGsIDJwBP6xjCrmf92tl1fCouYKgc0xw=s88-mo-c-c0xffffffff-rj-k-no",
+                "width": 88,
+                "height": 88
+              }
+            ]
+          },
+          "endpoint": {
+            "clickTrackingParams":
+              "CJ4DENwcGAAiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/channel/UCTIV3KbAvaGEyNjoMoNaGtQ",
+                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+              }
+            },
+            "browseEndpoint": {
+              "browseId": "UCTIV3KbAvaGEyNjoMoNaGtQ",
+              "canonicalBaseUrl": "/channel/UCTIV3KbAvaGEyNjoMoNaGtQ"
+            }
+          },
+          "content": {
+            "expandedShelfContentsRenderer": {
+              "items": [
+                {
+                  "videoRenderer": {
+                    "videoId": "xqnOn8sf7K0",
+                    "thumbnail": {
+                      "thumbnails": [
+                        {
+                          "url":
+                            "https://i.ytimg.com/vi/xqnOn8sf7K0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==\u0026rs=AOn4CLA1Ujcs3TyYZ-ahb6s0_iYBvmicbw",
+                          "width": 490,
+                          "height": 274
+                        }
+                      ],
+                      "webThumbnailDetailsExtensionData": {
+                        "isPreloaded": true
+                      }
+                    },
+                    "title": {
+                      "accessibility": {
+                        "accessibilityData": {
+                          "label":
+                            "World of Warcraft: Mastering the Menagerie - SQUIRT: DEEBS, TYRI, PUZZLE - WoW Battle Pet Strategy by KatherineOfSky 4 minutes ago 5 minutes, 7 seconds 1 view"
+                        }
+                      },
+                      "simpleText":
+                        "World of Warcraft: Mastering the Menagerie - SQUIRT: DEEBS, TYRI, PUZZLE - WoW Battle Pet Strategy"
+                    },
+                    "descriptionSnippet": {
+                      "simpleText":
+                        "Join me as I play World of Warcraft and conquer the pets in the Draenor garrison Menagerie!  Tips, tricks \u0026 strategy for pet battles!  Pets are one of my favorite aspects of World of Warcraft, and ..."
+                    },
+                    "longBylineText": {
+                      "runs": [
+                        {
+                          "text": "KatherineOfSky",
+                          "navigationEndpoint": {
+                            "clickTrackingParams":
+                              "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/channel/UCTIV3KbAvaGEyNjoMoNaGtQ",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCTIV3KbAvaGEyNjoMoNaGtQ"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "publishedTimeText": {
+                      "simpleText": "4 minutes ago"
+                    },
+                    "lengthText": {
+                      "accessibility": {
+                        "accessibilityData": {
+                          "label": "5 minutes, 7 seconds"
+                        }
+                      },
+                      "simpleText": "5:07"
+                    },
+                    "viewCountText": {
+                      "simpleText": "1 view"
+                    },
+                    "navigationEndpoint": {
+                      "clickTrackingParams":
+                        "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4yC2F0b20tc3Vicy11Wg9GRXN1YnNjcmlwdGlvbnM=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/watch?v=xqnOn8sf7K0",
+                          "webPageType": "WEB_PAGE_TYPE_WATCH"
+                        }
+                      },
+                      "watchEndpoint": {
+                        "videoId": "xqnOn8sf7K0"
+                      }
+                    },
+                    "ownerText": {
+                      "runs": [
+                        {
+                          "text": "KatherineOfSky",
+                          "navigationEndpoint": {
+                            "clickTrackingParams":
+                              "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/channel/UCTIV3KbAvaGEyNjoMoNaGtQ",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCTIV3KbAvaGEyNjoMoNaGtQ"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "shortBylineText": {
+                      "runs": [
+                        {
+                          "text": "KatherineOfSky",
+                          "navigationEndpoint": {
+                            "clickTrackingParams":
+                              "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/channel/UCTIV3KbAvaGEyNjoMoNaGtQ",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCTIV3KbAvaGEyNjoMoNaGtQ"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "channelThumbnail": {
+                      "thumbnails": [
+                        {
+                          "url":
+                            "https://yt3.ggpht.com/-nUPh0X8HMJA/AAAAAAAAAAI/AAAAAAAAAAA/lvEHShc0XU4/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                          "width": 68,
+                          "height": 68
+                        }
+                      ]
+                    },
+                    "trackingParams":
+                      "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R5Ardn_2PzT89TGAQ==",
+                    "showActionMenu": false,
+                    "shortViewCountText": {
+                      "simpleText": "1 view"
+                    },
+                    "menu": {
+                      "menuRenderer": {
+                        "items": [
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "simpleText": "Add to Watch later"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams":
+                                  "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true
+                                  }
+                                },
+                                "playlistEditEndpoint": {
+                                  "playlistId": "WL",
+                                  "actions": [
+                                    {
+                                      "addedVideoId": "xqnOn8sf7K0",
+                                      "action": "ACTION_ADD_VIDEO"
+                                    }
+                                  ]
+                                }
+                              },
+                              "trackingParams":
+                                "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4="
+                            }
+                          },
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "simpleText": "Add to playlist"
+                              },
+                              "icon": {
+                                "iconType": "ADD_TO_PLAYLIST"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams":
+                                  "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true
+                                  }
+                                },
+                                "addToPlaylistServiceEndpoint": {
+                                  "videoId": "xqnOn8sf7K0"
+                                }
+                              },
+                              "trackingParams":
+                                "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4="
+                            }
+                          },
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "simpleText": "Hide"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams":
+                                  "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true
+                                  }
+                                },
+                                "dismissalEndpoint": {
+                                  "dismissal": "CAQSEDE1MzE0MDQwMDkwMDA0NjA%3D",
+                                  "actions": [
+                                    {
+                                      "replaceEnclosingAction": {
+                                        "item": {
+                                          "notificationMultiActionRenderer": {
+                                            "responseText": {
+                                              "simpleText":
+                                                "Video hidden from feed."
+                                            },
+                                            "trackingParams":
+                                              "CKIDEKW8ASITCMH_6cTdmdwCFdVfKgodn-wJ0ijpHg=="
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "trackingParams":
+                                "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4="
+                            }
+                          }
+                        ],
+                        "trackingParams":
+                          "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                        "accessibility": {
+                          "accessibilityData": {
+                            "label": "Action menu"
+                          }
+                        }
+                      }
+                    },
+                    "thumbnailOverlays": [
+                      {
+                        "thumbnailOverlayTimeStatusRenderer": {
+                          "text": {
+                            "accessibility": {
+                              "accessibilityData": {
+                                "label": "5 minutes, 7 seconds"
+                              }
+                            },
+                            "simpleText": "5:07"
+                          },
+                          "style": "DEFAULT"
+                        }
+                      },
+                      {
+                        "thumbnailOverlayToggleButtonRenderer": {
+                          "isToggled": false,
+                          "untoggledIcon": {
+                            "iconType": "WATCH_LATER"
+                          },
+                          "toggledIcon": {
+                            "iconType": "CHECK"
+                          },
+                          "untoggledTooltip": "Watch later",
+                          "toggledTooltip": "Added",
+                          "untoggledServiceEndpoint": {
+                            "clickTrackingParams":
+                              "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                              }
+                            },
+                            "playlistEditEndpoint": {
+                              "playlistId": "WL",
+                              "actions": [
+                                {
+                                  "addedVideoId": "xqnOn8sf7K0",
+                                  "action": "ACTION_ADD_VIDEO"
+                                }
+                              ]
+                            }
+                          },
+                          "toggledServiceEndpoint": {
+                            "clickTrackingParams":
+                              "CKEDENwwGAIiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                              }
+                            },
+                            "playlistEditEndpoint": {
+                              "playlistId": "WL",
+                              "actions": [
+                                {
+                                  "action": "ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+                                  "removedVideoId": "xqnOn8sf7K0"
+                                }
+                              ]
+                            }
+                          },
+                          "untoggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Watch later"
+                            }
+                          },
+                          "toggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Added"
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "richThumbnail": {
+                      "movingThumbnailRenderer": {
+                        "movingThumbnailDetails": {
+                          "thumbnails": [
+                            {
+                              "url":
+                                "https://i.ytimg.com/an_webp/xqnOn8sf7K0/mqdefault_6s.webp?du=3000\u0026sqp=CKCJndoF\u0026rs=AOn4CLBms9fBFN9_815oyf5dnDE-NQYEEA",
+                              "width": 320,
+                              "height": 180
+                            }
+                          ],
+                          "logAsMovingThumbnail": true
+                        },
+                        "enableHoveredLogging": true,
+                        "enableOverlay": true
+                      }
+                    }
+                  }
+                }
+              ],
+              "showMoreText": { "simpleText": "Show more" }
+            }
+          },
+          "trackingParams": "CJ4DENwcGAAiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+          "menu": {
+            "menuRenderer": {
+              "trackingParams": "CJ4DENwcGAAiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+              "topLevelButtons": [
+                {
+                  "buttonRenderer": {
+                    "style": "STYLE_OPACITY",
+                    "size": "SIZE_DEFAULT",
+                    "icon": { "iconType": "VIEW_MODULE" },
+                    "navigationEndpoint": {
+                      "clickTrackingParams":
+                        "CKADEPBbGAAiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/feed/subscriptions?flow=1",
+                          "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                        }
+                      },
+                      "browseEndpoint": {
+                        "browseId": "FEsubscriptions",
+                        "params": "MAE%3D"
+                      }
+                    },
+                    "accessibility": {
+                      "label": "Switch to grid view"
+                    },
+                    "tooltip": "Grid",
+                    "trackingParams":
+                      "CKADEPBbGAAiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4="
+                  }
+                },
+                {
+                  "buttonRenderer": {
+                    "style": "STYLE_OPACITY",
+                    "size": "SIZE_DEFAULT",
+                    "isDisabled": true,
+                    "icon": { "iconType": "VIEW_LIST" },
+                    "accessibility": {
+                      "label": "Switch to list view"
+                    },
+                    "tooltip": "List",
+                    "trackingParams":
+                      "CJ8DEPBbGAEiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4="
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "trackingParams": "CJ0DELsvGAAiEwjB_-nE3ZncAhXVXyoKHZ_sCdIo6R4="
+  }
+}
