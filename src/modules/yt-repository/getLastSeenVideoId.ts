@@ -9,7 +9,6 @@ export class LastSeenVideoIdNotFoundError extends Error {
 export const getLastSeenVideoId = (): Promise<string> => {
   return new Promise((resolve, reject) => {
     chrome.storage.sync.get([LAST_SEEN_VIDEO_ID_KEY], result => {
-      console.log(result)
       if (chrome.runtime.lastError) {
         reject(chrome.runtime.lastError);
         return;

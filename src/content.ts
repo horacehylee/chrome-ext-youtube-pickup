@@ -4,9 +4,15 @@ import * as domLoaded from "dom-loaded";
 import { injectInternalScript } from "./inject";
 import { ytRepository } from "./modules/yt-repository";
 import { LastSeenVideoIdNotFoundError } from "./modules/yt-repository/getLastSeenVideoId";
+import { ytBridge } from "./modules/yt-bridge";
+
+import * as logLevel from "loglevel";
+import { addPrefix } from "./modules/log-util";
+addPrefix(logLevel);
+const log = logLevel.getLogger("content");
 
 (async () => {
-  console.log("Hello From Extension");
+  log.info("Hello From Extension");
 
   let lastSeenVideoId;
   try {
@@ -19,40 +25,22 @@ import { LastSeenVideoIdNotFoundError } from "./modules/yt-repository/getLastSee
     }
   }
 
-  window.addEventListener("message", async event => {
-    if (!event || event.source !== window) {
-      return;
+  ytBridge.saveLastSeenVideoId.observable().subscribe(async payload => {
+    const { lastSeenVideoId } = payload as any;
+    if (!lastSeenVideoId) {
+      throw new Error("Should not save last seen video id as null");
     }
-    const message = event.data;
-    if (!message || message.source !== "@youtube-pickup/dom") {
-      return;
-    }
-    console.log("[content] Message Received", message);
-    switch (message.type) {
-      case "SAVE_LAST_SEEN_VIDEO_ID":
-        const { lastSeenVideoId } = message.payload;
-        if (!lastSeenVideoId) {
-          throw new Error("Should not save last seen video id as null");
-        }
-        await ytRepository.saveLastSeenVideoId(lastSeenVideoId);
-        console.log(`Saved last seen video id as "${lastSeenVideoId}"`);
-        return;
-    }
+    await ytRepository.saveLastSeenVideoId(lastSeenVideoId);
+    log.info(`Saved last seen video id as "${lastSeenVideoId}"`);
+    return;
   });
 
   await domLoaded;
   injectInternalScript("dom.js");
 
   window.onload = () => {
-    window.postMessage(
-      {
-        source: "@youtube-pickup/content",
-        type: "FETCH_LAST_SEEN_VIDEO_ID_SUCCESS",
-        payload: {
-          lastSeenVideoId: lastSeenVideoId
-        }
-      },
-      "*"
-    );
+    ytBridge.fetchLastSeenVideoId.post({
+      lastSeenVideoId: lastSeenVideoId
+    });
   };
 })();

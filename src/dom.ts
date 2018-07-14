@@ -3,8 +3,12 @@ import { ytDomSelector } from "./modules/yt-dom-selector";
 import { showToast } from "./modules/toast";
 import { VideoNotFoundError } from "./modules/yt-dom-selector/selectVideoWithRetry";
 import { domScroll } from "./modules/dom-scroll";
-// import { ytRepository } from "./modules/yt-repository";
-import { LastSeenVideoIdNotFoundError } from "./modules/yt-repository/getLastSeenVideoId";
+import { ytBridge } from "./modules/yt-bridge";
+
+import * as logLevel from "loglevel";
+import { addPrefix } from "./modules/log-util";
+addPrefix(logLevel);
+const log = logLevel.getLogger("dom");
 
 const arrayToObject = <T>(
   array: Array<T>,
@@ -17,24 +21,15 @@ const arrayToObject = <T>(
     return obj;
   }, {});
 
-window.addEventListener("message", event => {
-  if (!event || event.source !== window) {
-    return;
-  }
-  const message = event.data;
-  if (!message || message.source !== "@youtube-pickup/content") {
-    return;
-  }
-  console.log("[dom] Message Received", message);
-  switch (message.type) {
-    case "FETCH_LAST_SEEN_VIDEO_ID_SUCCESS":
-      const { lastSeenVideoId } = message.payload;
-      start(lastSeenVideoId);
-      return;
-  }
+ytBridge.fetchLastSeenVideoId.observable().subscribe(payload => {
+  const { lastSeenVideoId } = payload as any;
+  start(lastSeenVideoId);
 });
 
 const start = (lastSeenVideoId: string) => {
+  log.info("Starting...", {
+    lastSeenVideoId
+  });
   const ytInitialData = window["ytInitialData"];
   const ytVideos = ytSelector.queryVideos(ytInitialData);
 
@@ -43,19 +38,12 @@ const start = (lastSeenVideoId: string) => {
   }
 
   const latestVideoid = ytVideos[0].videoId;
-  window.postMessage(
-    {
-      source: "@youtube-pickup/dom",
-      type: "SAVE_LAST_SEEN_VIDEO_ID",
-      payload: {
-        lastSeenVideoId: latestVideoid
-      }
-    },
-    "*"
-  );
+  ytBridge.saveLastSeenVideoId.post({
+    lastSeenVideoId: latestVideoid
+  });
 
   if (!lastSeenVideoId || lastSeenVideoId === "null") {
-    console.log("Last seen video id is not set, skipping...");
+    log.info("Last seen video id is not set, skipping...");
     return;
   }
 
@@ -68,13 +56,7 @@ const start = (lastSeenVideoId: string) => {
       `Last seen video with video id "${lastSeenVideoId}" cannot be found`
     );
   }
-
-  // const getIndex = () => {
-  //   return 3;
-  //   // return ytVideos.length = 2;
-  // };
-  // const selectedVideo = ytVideos[getIndex()];
-  console.log("lastSeenVideo", lastSeenVideo);
+  log.debug("lastSeenVideo", lastSeenVideo);
 
   ytDomSelector
     .selectVideoWithRetry(lastSeenVideo, {
@@ -85,7 +67,6 @@ const start = (lastSeenVideoId: string) => {
       videoElement => {
         domScroll.scrollToElement(videoElement);
         const parent = ytDomSelector.selectVideoContainer(videoElement);
-        console.log("videoElement parent", parent);
         parent.style.cssText = `
           border-top: 5px solid red;
         `;
@@ -95,7 +76,7 @@ const start = (lastSeenVideoId: string) => {
           message: error.message,
           type: "error"
         });
-        console.error(error.message, error.video);
+        log.error(error.message, error.video);
       }
     );
 };
