@@ -21,17 +21,12 @@
   },
   "manifest_version": 2,
   "content_scripts": [
-		{
-			"run_at": "document_start",
-			"matches": [
-				"https://www.youtube.com/feed/subscriptions*"
-			],
-			"css": [
-				"content.css"
-			],
-			"js": [
-				"content.js"
-			]
-		}
-	]
+    {
+      "run_at": "document_start",
+      "matches": ["https://www.youtube.com/feed/subscriptions*"],
+      "css": ["content.css", "native-toast.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": ["dom.js"]
 }

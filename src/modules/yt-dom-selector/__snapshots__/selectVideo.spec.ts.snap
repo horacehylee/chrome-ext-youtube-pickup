@@ -1,5 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`selectVideo should select video element with time value in url 1`] = `
+<a
+  aria-hidden="true"
+  class="yt-simple-endpoint inline-block style-scope ytd-thumbnail"
+  href="/watch?v=xu6KLURIuh8&t=29s"
+  id="thumbnail"
+  rel="null"
+  tabindex="-1"
+>
+  
+                      
+  <yt-img-shadow
+    class="style-scope ytd-thumbnail no-transition"
+    loaded=""
+    style="background-color: transparent;"
+  >
+    
+                        
+    <img
+      alt=""
+      class="style-scope yt-img-shadow"
+      id="img"
+      src="https://i.ytimg.com/vi/xu6KLURIuh8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCBjK3OTHsBnJqdrZVSB2BWJamVhg"
+      width="246"
+    />
+    
+                      
+  </yt-img-shadow>
+  
+
+                      
+  <div
+    class="style-scope ytd-thumbnail"
+    id="overlays"
+  >
+    
+                        
+    <ytd-thumbnail-overlay-resume-playback-renderer
+      class="style-scope ytd-thumbnail"
+    >
+      
+                          
+      <div
+        class="style-scope ytd-thumbnail-overlay-resume-playback-renderer"
+        id="progress"
+        style="width: 13%;"
+      />
+      
+                        
+    </ytd-thumbnail-overlay-resume-playback-renderer>
+    
+                        
+    <ytd-thumbnail-overlay-time-status-renderer
+      class="style-scope ytd-thumbnail"
+      overlay-style="DEFAULT"
+    >
+      
+                          
+      <span
+        aria-label="3 minutes, 42 seconds"
+        class="style-scope ytd-thumbnail-overlay-time-status-renderer"
+      >
+        
+                            3:42
+                          
+      </span>
+      
+                        
+    </ytd-thumbnail-overlay-time-status-renderer>
+    
+                      
+  </div>
+  
+                      
+  <div
+    class="style-scope ytd-thumbnail"
+    id="mouseover-overlay"
+  />
+  
+                      
+  <div
+    class="style-scope ytd-thumbnail"
+    id="hover-overlays"
+  />
+  
+                    
+</a>
+`;
+
 exports[`selectVideo should select videoId element 1`] = `
 <a
   aria-hidden="true"

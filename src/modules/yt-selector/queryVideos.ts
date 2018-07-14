@@ -5,9 +5,9 @@ export interface YtVideo {
   title: string;
 }
 
-export const queryVideos = (ytInitalData): YtVideo[] => {
+export const queryVideos = (ytInitialData): YtVideo[] => {
   const contents = dotProp.get(
-    ytInitalData,
+    ytInitialData,
     "contents.twoColumnBrowseResultsRenderer.tabs.0.tabRenderer.content.sectionListRenderer.contents",
     []
   );
