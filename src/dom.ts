@@ -37,10 +37,14 @@ const start = (lastSeenVideoId: string) => {
     throw new Error(`No videos are found (ytVideos.length === 0)`);
   }
 
-  const latestVideoid = ytVideos[0].videoId;
-  ytBridge.saveLastSeenVideoId.post({
-    lastSeenVideoId: latestVideoid
-  });
+  const latestVideoId = ytVideos[0].videoId;
+  if (lastSeenVideoId === latestVideoId) {
+    log.info("Video ids are the same, no need to update last seen video id");
+  } else {
+    ytBridge.saveLastSeenVideoId.post({
+      lastSeenVideoId: latestVideoId
+    });
+  }
 
   if (!lastSeenVideoId || lastSeenVideoId === "null") {
     log.info("Last seen video id is not set, skipping...");

@@ -1,63 +1,27 @@
 import { Observable, fromEvent } from "rxjs";
 import { filter, tap, map } from "rxjs/operators";
 
-// const _temp = () => {
-//   window.postMessage(
-//     {
-//       source: "@youtube-pickup/content",
-//       type: "FETCH_LAST_SEEN_VIDEO_ID_SUCCESS",
-//       payload: {
-//         // ...
-//       }
-//     },
-//     "*"
-//   );
-
-//   window.addEventListener("message", event => {
-//     if (!event || event.source !== window) {
-//       return;
-//     }
-//     const message = event.data;
-//     if (!message || message.source !== "@youtube-pickup/content") {
-//       return;
-//     }
-//     console.log("[dom] Message Received", message);
-//     switch (message.type) {
-//       case "FETCH_LAST_SEEN_VIDEO_ID_SUCCESS":
-//         const { lastSeenVideoId } = message.payload;
-//         // start(lastSeenVideoId);
-//         return;
-//     }
-//   });
-// };
-
-interface ObjectPayload {
+interface GenericObject {
   [key: string]: any;
 }
 
-type Payload = ObjectPayload | {};
+type Payload<T> = T;
 
-interface Message {
-  scope?: string;
-  type: string;
-  payload: Payload;
-}
-
-interface BridgeModel {
-  post: (payload: Payload) => void;
-  observable: () => Observable<Payload>;
+interface BridgeModel<T> {
+  post: (payload: Payload<T>) => void;
+  observable: () => Observable<Payload<T>>;
 }
 
 interface CreateBridgeOption {
   scope?: string;
 }
 
-const createBridge = (
+const createBridge = <T = GenericObject>(
   type: string,
   option: CreateBridgeOption = {
     scope: "@scope"
   }
-): BridgeModel => {
+): BridgeModel<T> => {
   const { scope } = option;
   return {
     post: payload => {
@@ -86,19 +50,25 @@ const createBridge = (
           return true;
         }),
         tap<MessageEvent>(event => console.log("Message Received", event.data)),
-        map<MessageEvent, Payload>(event => event.data.payload)
+        map<MessageEvent, Payload<T>>(event => event.data.payload)
       );
     }
   };
 };
 
 export const ytBridge = {
-  fetchLastSeenVideoId: createBridge("FETCH_LAST_SEEN_VIDEO_ID_SUCCESS", {
-    scope: "@youtube-pickup/content"
-  }),
-  saveLastSeenVideoId: createBridge("SAVE_LAST_SEEN_VIDEO_ID", {
-    scope: "@youtube-pickup/content"
-  })
+  fetchLastSeenVideoId: createBridge<{ lastSeenVideoId: string }>(
+    "FETCH_LAST_SEEN_VIDEO_ID_SUCCESS",
+    {
+      scope: "@youtube-pickup"
+    }
+  ),
+  saveLastSeenVideoId: createBridge<{ lastSeenVideoId: string }>(
+    "SAVE_LAST_SEEN_VIDEO_ID",
+    {
+      scope: "@youtube-pickup"
+    }
+  )
 };
 
 /**
