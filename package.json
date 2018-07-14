@@ -23,7 +23,6 @@
     "prebuild": "yarn clean",
     "dev": "webpack --mode=development --watch",
     "build": "webpack --mode=production",
-    "build:watch": "yarn build --watch",
     "test": "jest",
     "test:watch": "jest --watch --env=jsdom"
   },
