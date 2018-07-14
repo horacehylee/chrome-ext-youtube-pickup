@@ -22,7 +22,7 @@ const arrayToObject = <T>(
   }, {});
 
 ytBridge.fetchLastSeenVideoId.observable().subscribe(payload => {
-  const { lastSeenVideoId } = payload as any;
+  const { lastSeenVideoId } = payload;
   start(lastSeenVideoId);
 });
 
@@ -51,9 +51,7 @@ const start = (lastSeenVideoId: string) => {
     return;
   }
 
-  // Select ytVideo
   const ytVideoDict = arrayToObject(ytVideos, video => video.videoId);
-  // const lastSeenVideoId = ytVideos[3].videoId;
   const lastSeenVideo = ytVideoDict[lastSeenVideoId];
   if (!lastSeenVideo) {
     throw new Error(

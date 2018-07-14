@@ -24,7 +24,7 @@ const log = logLevel.getLogger("content");
   }
 
   ytBridge.saveLastSeenVideoId.observable().subscribe(async payload => {
-    const { lastSeenVideoId } = payload as any;
+    const { lastSeenVideoId } = payload;
     if (!lastSeenVideoId) {
       throw new Error("Should not save last seen video id as null");
     }
