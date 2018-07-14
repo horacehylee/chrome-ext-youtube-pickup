@@ -1,5 +1,79 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`selectVideo should select video element with number as the first character 1`] = `
+<a
+  aria-hidden="true"
+  class="yt-simple-endpoint inline-block style-scope ytd-thumbnail"
+  href="/watch?v=2LifjpxpIwU"
+  id="thumbnail"
+  rel="null"
+  tabindex="-1"
+>
+  
+                      
+  <yt-img-shadow
+    class="style-scope ytd-thumbnail no-transition"
+    loaded=""
+    style="background-color: transparent;"
+  >
+    
+                        
+    <img
+      alt=""
+      class="style-scope yt-img-shadow"
+      id="img"
+      src="https://i.ytimg.com/vi/2LifjpxpIwU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB0HNYDXawpIC-8pZVuwgWck_K4FQ"
+      width="246"
+    />
+    
+                      
+  </yt-img-shadow>
+  
+
+                      
+  <div
+    class="style-scope ytd-thumbnail"
+    id="overlays"
+  >
+    
+                        
+    <ytd-thumbnail-overlay-time-status-renderer
+      class="style-scope ytd-thumbnail"
+      overlay-style="DEFAULT"
+    >
+      
+                          
+      <span
+        aria-label="2 hours, 5 minutes"
+        class="style-scope ytd-thumbnail-overlay-time-status-renderer"
+      >
+        
+                            2:05:41
+                          
+      </span>
+      
+                        
+    </ytd-thumbnail-overlay-time-status-renderer>
+    
+                      
+  </div>
+  
+                      
+  <div
+    class="style-scope ytd-thumbnail"
+    id="mouseover-overlay"
+  />
+  
+                      
+  <div
+    class="style-scope ytd-thumbnail"
+    id="hover-overlays"
+  />
+  
+                    
+</a>
+`;
+
 exports[`selectVideo should select video element with time value in url 1`] = `
 <a
   aria-hidden="true"
