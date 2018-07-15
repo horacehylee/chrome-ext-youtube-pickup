@@ -23,8 +23,9 @@
     "prebuild": "yarn clean",
     "dev": "webpack --mode=development --watch",
     "build": "webpack --mode=production",
-    "test": "jest",
-    "test:watch": "jest --watch --env=jsdom"
+    "test": "jest  --env=jsdom",
+    "test:watch": "yarn test --watch",
+    "test:coverage": "yarn test --coverage"
   },
   "dependencies": {
     "dom-loaded": "^1.0.1",
