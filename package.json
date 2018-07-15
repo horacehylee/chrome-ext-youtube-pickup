@@ -1,7 +1,7 @@
 {
   "name": "youtube-pickup",
   "version": "0.0.1",
-  "description": "youtube-pickup",
+  "description": "Track the last youtube video that you scroll to and let you pick up where you left off",
   "license": "MIT",
   "repository": "",
   "author": {
