@@ -6,4 +6,4 @@
 
 MIT © [Horace Lee](https://github.com/horacehylee)
 
-[logo]: resources/images/logo16.png
+[logo]: resources/images/logo32.png
