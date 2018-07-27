@@ -26,7 +26,7 @@
     "test": "jest  --env=jsdom",
     "test:watch": "yarn test --watch",
     "test:coverage": "yarn test --coverage",
-    "test:coverage:ci": "yarn coverage --runInBand"
+    "test:coverage:ci": "yarn test:coverage --runInBand"
   },
   "dependencies": {
     "dom-loaded": "^1.0.1",
