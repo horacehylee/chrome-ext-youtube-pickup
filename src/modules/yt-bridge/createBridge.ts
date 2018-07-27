@@ -1,6 +1,5 @@
 import { Observable, fromEvent } from "rxjs";
 import { filter, tap, map } from "rxjs/operators";
-import { isTesting } from "../is-testing";
 import * as log from "loglevel";
 
 type GenericObject = {
@@ -48,9 +47,6 @@ export const createBridge = <T = GenericObject>(
     observable: () => {
       return fromEvent(window, "message").pipe(
         filter<MessageEvent>(event => {
-          if (!event || (event.source !== window && !isTesting())) {
-            return false;
-          }
           const message = event.data;
           if (!message || message.scope !== scope) {
             return false;

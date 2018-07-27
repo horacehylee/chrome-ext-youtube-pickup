@@ -25,7 +25,8 @@
     "build": "webpack --mode=production",
     "test": "jest  --env=jsdom",
     "test:watch": "yarn test --watch",
-    "coverage": "yarn test --coverage"
+    "test:coverage": "yarn test --coverage",
+    "test:coverage:ci": "yarn coverage --runInBand"
   },
   "dependencies": {
     "dom-loaded": "^1.0.1",
