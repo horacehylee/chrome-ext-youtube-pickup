@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/horacehylee/chrome-ext-youtube-pickup.svg?branch=master)](https://travis-ci.org/horacehylee/chrome-ext-youtube-pickup)
-[![Coverage Status](https://coveralls.io/repos/github/horacehylee/youtube-pickup/badge.svg?branch=master)](https://coveralls.io/github/horacehylee/youtube-pickup?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/horacehylee/chrome-ext-youtube-pickup/badge.svg?branch=master)](https://coveralls.io/github/horacehylee/chrome-ext-youtube-pickup?branch=master)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 # ![][logo] Youtube Pickup Chrome Extension
