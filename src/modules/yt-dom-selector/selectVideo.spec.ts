@@ -42,6 +42,12 @@ describe("selectVideo", () => {
         "should select video element with number as the first character",
       sampleFileName: "ytVideoElement_numberAsFirstChar.html",
       videoId: "2LifjpxpIwU"
+    },
+    {
+      description:
+        "should select video elements with more than one numbers as first characters",
+      sampleFileName: "ytVideoElement_numbers.html",
+      videoId: "5700buJP-Qw"
     }
   ]);
 });
