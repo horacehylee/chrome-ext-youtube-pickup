@@ -4,6 +4,10 @@
   "description":
     "Track the last youtube video that you scroll to and let you pick up where you left off",
   "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "page_action": {
     "default_icon": {
       "16": "images/logo16.png",
