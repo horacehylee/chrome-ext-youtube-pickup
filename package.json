@@ -26,7 +26,8 @@
     "test": "jest  --env=jsdom",
     "test:watch": "yarn test --watch",
     "test:coverage": "yarn test --coverage",
-    "test:coverage:ci": "yarn test:coverage --runInBand"
+    "test:coverage:ci": "yarn test:coverage --runInBand",
+    "release": "npx -n='-r dotenv/config' webstore upload --source dist --auto-publish"
   },
   "dependencies": {
     "dom-loaded": "^1.0.1",
@@ -45,9 +46,11 @@
     "@types/loglevel": "^1.5.3",
     "@types/node": "^8.0.0",
     "bluebird": "^3.5.1",
+    "chrome-webstore-upload-cli": "^1.2.0",
     "copy-webpack-plugin": "^4.5.2",
     "coveralls": "^2.0.0",
     "dom-testing-library": "^3.0.0",
+    "dotenv": "^6.0.0",
     "jest": "^22.0.4",
     "jest-dom": "^1.8.1",
     "prettier": "^1.5.2",
