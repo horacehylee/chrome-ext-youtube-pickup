@@ -1,0 +1,433 @@
+{
+  "itemSectionRenderer": {
+    "contents": [
+      {
+        "shelfRenderer": {
+          "title": {
+            "simpleText": "Live"
+          },
+          "endpoint": {
+            "clickTrackingParams": "CKEDENwcGAAiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/feed/live",
+                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+              }
+            },
+            "browseEndpoint": {
+              "browseId": "FElive"
+            }
+          },
+          "content": {
+            "expandedShelfContentsRenderer": {
+              "items": [
+                {
+                  "videoRenderer": {
+                    "videoId": "-rs-5ZL-f9w",
+                    "thumbnail": {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/-rs-5ZL-f9w/hqdefault_live.jpg?sqp=CKS96ecF-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDg3SYo42RIiTT27pdNWorp25xg7g",
+                          "width": 490,
+                          "height": 274
+                        }
+                      ],
+                      "webThumbnailDetailsExtensionData": {
+                        "isPreloaded": true
+                      }
+                    },
+                    "title": {
+                      "accessibility": {
+                        "accessibilityData": {
+                          "label": "JSNation Conference 2019 - NodeJS Hall by JSNation 5 hours ago 112 views"
+                        }
+                      },
+                      "simpleText": "JSNation Conference 2019 - NodeJS Hall"
+                    },
+                    "descriptionSnippet": {
+                      "simpleText": "Live stream of the JSNation Conference 2019 https://jsnation.com\n\nMain hall stream link https://www.youtube.com/watch?v=Fj4Vm9m95Io"
+                    },
+                    "longBylineText": {
+                      "runs": [
+                        {
+                          "text": "JSNation",
+                          "navigationEndpoint": {
+                            "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/channel/UCQM428Hwrvxla8DCgjGONSQ",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCQM428Hwrvxla8DCgjGONSQ"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "viewCountText": {
+                      "simpleText": "17 watching"
+                    },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4yCWF0b20tc3Vic1oPRkVzdWJzY3JpcHRpb25z",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/watch?v=-rs-5ZL-f9w",
+                          "webPageType": "WEB_PAGE_TYPE_WATCH"
+                        }
+                      },
+                      "watchEndpoint": {
+                        "videoId": "-rs-5ZL-f9w"
+                      }
+                    },
+                    "badges": [
+                      {
+                        "metadataBadgeRenderer": {
+                          "style": "BADGE_STYLE_TYPE_LIVE_NOW",
+                          "label": "LIVE NOW",
+                          "trackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4="
+                        }
+                      }
+                    ],
+                    "ownerText": {
+                      "runs": [
+                        {
+                          "text": "JSNation",
+                          "navigationEndpoint": {
+                            "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/channel/UCQM428Hwrvxla8DCgjGONSQ",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCQM428Hwrvxla8DCgjGONSQ"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "shortBylineText": {
+                      "runs": [
+                        {
+                          "text": "JSNation",
+                          "navigationEndpoint": {
+                            "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/channel/UCQM428Hwrvxla8DCgjGONSQ",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCQM428Hwrvxla8DCgjGONSQ"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "trackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R5A3P_5l9ncz936AQ==",
+                    "showActionMenu": false,
+                    "shortViewCountText": {
+                      "simpleText": "17 watching"
+                    },
+                    "menu": {
+                      "menuRenderer": {
+                        "items": [
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "simpleText": "Save to Watch later"
+                              },
+                              "icon": {
+                                "iconType": "WATCH_LATER"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true
+                                  }
+                                },
+                                "playlistEditEndpoint": {
+                                  "playlistId": "WL",
+                                  "actions": [
+                                    {
+                                      "addedVideoId": "-rs-5ZL-f9w",
+                                      "action": "ACTION_ADD_VIDEO"
+                                    }
+                                  ]
+                                }
+                              },
+                              "trackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4="
+                            }
+                          },
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "simpleText": "Save to playlist"
+                              },
+                              "icon": {
+                                "iconType": "PLAYLIST_ADD"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true
+                                  }
+                                },
+                                "addToPlaylistServiceEndpoint": {
+                                  "videoId": "-rs-5ZL-f9w"
+                                }
+                              },
+                              "trackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                              "hasSeparator": true
+                            }
+                          },
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "simpleText": "Hide"
+                              },
+                              "icon": {
+                                "iconType": "NOT_INTERESTED"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true
+                                  }
+                                },
+                                "dismissalEndpoint": {
+                                  "dismissal": "CAQSEDE1NTk4OTM2MjUwMDAyOTI%3D",
+                                  "actions": [
+                                    {
+                                      "replaceEnclosingAction": {
+                                        "item": {
+                                          "notificationMultiActionRenderer": {
+                                            "responseText": {
+                                              "simpleText": "Video hidden from feed."
+                                            },
+                                            "trackingParams": "CKYDEKW8ASITCLTz4r221-ICFZMeYAod2swK6CjpHg=="
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "trackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4="
+                            }
+                          }
+                        ],
+                        "trackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                        "accessibility": {
+                          "accessibilityData": {
+                            "label": "Action menu"
+                          }
+                        }
+                      }
+                    },
+                    "channelThumbnailSupportedRenderers": {
+                      "channelThumbnailWithLinkRenderer": {
+                        "thumbnail": {
+                          "thumbnails": [
+                            {
+                              "url": "https://yt3.ggpht.com/-no2aruDHQuE/AAAAAAAAAAI/AAAAAAAAAAA/qCSFVom3ZEs/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                              "width": 68,
+                              "height": 68
+                            }
+                          ]
+                        },
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCQM428Hwrvxla8DCgjGONSQ",
+                              "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCQM428Hwrvxla8DCgjGONSQ"
+                          }
+                        },
+                        "accessibility": {
+                          "accessibilityData": {
+                            "label": "View channel"
+                          }
+                        }
+                      }
+                    },
+                    "thumbnailOverlays": [
+                      {
+                        "thumbnailOverlayToggleButtonRenderer": {
+                          "isToggled": false,
+                          "untoggledIcon": {
+                            "iconType": "WATCH_LATER"
+                          },
+                          "toggledIcon": {
+                            "iconType": "CHECK"
+                          },
+                          "untoggledTooltip": "Watch later",
+                          "toggledTooltip": "Added",
+                          "untoggledServiceEndpoint": {
+                            "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                              }
+                            },
+                            "playlistEditEndpoint": {
+                              "playlistId": "WL",
+                              "actions": [
+                                {
+                                  "addedVideoId": "-rs-5ZL-f9w",
+                                  "action": "ACTION_ADD_VIDEO"
+                                }
+                              ]
+                            }
+                          },
+                          "toggledServiceEndpoint": {
+                            "clickTrackingParams": "CKUDENwwGAIiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                              }
+                            },
+                            "playlistEditEndpoint": {
+                              "playlistId": "WL",
+                              "actions": [
+                                {
+                                  "action": "ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+                                  "removedVideoId": "-rs-5ZL-f9w"
+                                }
+                              ]
+                            }
+                          },
+                          "untoggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Watch later"
+                            }
+                          },
+                          "toggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Added"
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "richThumbnail": {
+                      "movingThumbnailRenderer": {
+                        "enableHoveredLogging": true,
+                        "enableOverlay": true
+                      }
+                    }
+                  }
+                }
+              ],
+              "showMoreText": {
+                "simpleText": "Show more"
+              }
+            }
+          },
+          "trackingParams": "CKEDENwcGAAiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+          "menu": {
+            "menuRenderer": {
+              "trackingParams": "CKEDENwcGAAiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+              "topLevelButtons": [
+                {
+                  "buttonRenderer": {
+                    "style": "STYLE_OPACITY",
+                    "size": "SIZE_DEFAULT",
+                    "icon": {
+                      "iconType": "VIEW_MODULE"
+                    },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CKQDEPBbGAAiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/feed/subscriptions?flow=1",
+                          "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                        }
+                      },
+                      "browseEndpoint": {
+                        "browseId": "FEsubscriptions",
+                        "params": "MAE%3D"
+                      }
+                    },
+                    "accessibility": {
+                      "label": "Switch to grid view"
+                    },
+                    "tooltip": "Grid",
+                    "trackingParams": "CKQDEPBbGAAiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4="
+                  }
+                },
+                {
+                  "buttonRenderer": {
+                    "style": "STYLE_BLUE_TEXT",
+                    "size": "SIZE_DEFAULT",
+                    "icon": {
+                      "iconType": "VIEW_LIST"
+                    },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CKMDEPBbGAEiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/feed/subscriptions?flow=2",
+                          "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                        }
+                      },
+                      "browseEndpoint": {
+                        "browseId": "FEsubscriptions",
+                        "params": "MAI%3D"
+                      }
+                    },
+                    "accessibility": {
+                      "label": "Switch to list view"
+                    },
+                    "tooltip": "List",
+                    "trackingParams": "CKMDEPBbGAEiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4="
+                  }
+                }
+              ]
+            }
+          },
+          "subscribeButton": {
+            "buttonRenderer": {
+              "style": "STYLE_BLUE_TEXT",
+              "size": "SIZE_DEFAULT",
+              "isDisabled": false,
+              "text": {
+                "simpleText": "Manage"
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CKIDEPBbIhMItPPivbbX4gIVkx5gCh3azAroKOke",
+                "commandMetadata": {
+                  "webCommandMetadata": {
+                    "url": "/feed/channels",
+                    "webPageType": "WEB_PAGE_TYPE_BROWSE"
+                  }
+                },
+                "browseEndpoint": {
+                  "browseId": "FEchannels"
+                }
+              },
+              "trackingParams": "CKIDEPBbIhMItPPivbbX4gIVkx5gCh3azAroKOke"
+            }
+          }
+        }
+      }
+    ],
+    "trackingParams": "CKADELsvGAAiEwi08-K9ttfiAhWTHmAKHdrMCugo6R4="
+  }
+}

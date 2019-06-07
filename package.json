@@ -27,7 +27,7 @@
     "test:watch": "yarn test --watch",
     "test:coverage": "yarn test --coverage",
     "test:coverage:ci": "yarn test:coverage --runInBand",
-    "release": "npx -n='-r dotenv/config' webstore upload --source dist --auto-publish"
+    "release": "npx dotenv webstore upload --source dist --auto-publish"
   },
   "dependencies": {
     "dom-loaded": "^1.0.1",
