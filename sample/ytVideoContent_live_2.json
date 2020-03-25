@@ -1,0 +1,599 @@
+{
+  "itemSectionRenderer": {
+    "contents": [
+      {
+        "shelfRenderer": {
+          "title": {
+            "simpleText": "Proctor Gallagher Institute"
+          },
+          "thumbnail": {
+            "thumbnails": [
+              {
+                "url": "https://yt3.ggpht.com/a/AATXAJzN1shPO9YrhcDnyelIVUWKkgwzusMb4c2iwA=s88-c-k-c0xffffffff-no-rj-mo",
+                "width": 88,
+                "height": 88
+              }
+            ]
+          },
+          "endpoint": {
+            "clickTrackingParams": "CMAFENwcGAAiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/user/BobProctorTV",
+                "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                "rootVe": 3611
+              }
+            },
+            "browseEndpoint": {
+              "browseId": "UCh20lfVymrTPkw1nzhutatg",
+              "canonicalBaseUrl": "/user/BobProctorTV"
+            }
+          },
+          "content": {
+            "expandedShelfContentsRenderer": {
+              "items": [
+                {
+                  "videoRenderer": {
+                    "videoId": "tQw43U5k69Y",
+                    "thumbnail": {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/tQw43U5k69Y/hqdefault_live.jpg?sqp=CLSQ7vMF-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==\u0026rs=AOn4CLBnfvAZEbNR5Pcg1Viab07inPSTWg",
+                          "width": 490,
+                          "height": 274
+                        }
+                      ],
+                      "webThumbnailDetailsExtensionData": {
+                        "isPreloaded": true
+                      }
+                    },
+                    "title": {
+                      "accessibility": {
+                        "accessibilityData": {
+                          "label": "Good News with Bob Proctor by Proctor Gallagher Institute 51 minutes ago 10,188 views"
+                        }
+                      },
+                      "simpleText": "Good News with Bob Proctor"
+                    },
+                    "descriptionSnippet": {
+                      "simpleText": "WATCH LIVE: Bob Proctor, March 25th at 12:00 Noon Eastern\nBob Proctor will hold a Q\u0026A LIVE session on Wednesday, March 25th from 12:00 p.m. – 1:30 p.m. Eastern to share his perspective and answer v..."
+                    },
+                    "longBylineText": {
+                      "runs": [
+                        {
+                          "text": "Proctor Gallagher Institute",
+                          "navigationEndpoint": {
+                            "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/user/BobProctorTV",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                                "rootVe": 3611
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCh20lfVymrTPkw1nzhutatg",
+                              "canonicalBaseUrl": "/user/BobProctorTV"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "viewCountText": {
+                      "runs": [{ "text": "5,512 watching" }]
+                    },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8yCWF0b20tc3Vic1oPRkVzdWJzY3JpcHRpb25z",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/watch?v=tQw43U5k69Y",
+                          "webPageType": "WEB_PAGE_TYPE_WATCH",
+                          "rootVe": 3832
+                        }
+                      },
+                      "watchEndpoint": {
+                        "videoId": "tQw43U5k69Y"
+                      }
+                    },
+                    "badges": [
+                      {
+                        "metadataBadgeRenderer": {
+                          "style": "BADGE_STYLE_TYPE_LIVE_NOW",
+                          "label": "LIVE NOW",
+                          "trackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8="
+                        }
+                      }
+                    ],
+                    "ownerBadges": [
+                      {
+                        "metadataBadgeRenderer": {
+                          "icon": {
+                            "iconType": "CHECK_CIRCLE_THICK"
+                          },
+                          "style": "BADGE_STYLE_TYPE_VERIFIED",
+                          "tooltip": "Verified",
+                          "trackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8="
+                        }
+                      }
+                    ],
+                    "ownerText": {
+                      "runs": [
+                        {
+                          "text": "Proctor Gallagher Institute",
+                          "navigationEndpoint": {
+                            "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/user/BobProctorTV",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                                "rootVe": 3611
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCh20lfVymrTPkw1nzhutatg",
+                              "canonicalBaseUrl": "/user/BobProctorTV"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "shortBylineText": {
+                      "runs": [
+                        {
+                          "text": "Proctor Gallagher Institute",
+                          "navigationEndpoint": {
+                            "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/user/BobProctorTV",
+                                "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                                "rootVe": 3611
+                              }
+                            },
+                            "browseEndpoint": {
+                              "browseId": "UCh20lfVymrTPkw1nzhutatg",
+                              "canonicalBaseUrl": "/user/BobProctorTV"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "trackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM9A1teT89Sbjoa1AQ==",
+                    "showActionMenu": false,
+                    "shortViewCountText": {
+                      "runs": [{ "text": "5.5K" }, { "text": " watching" }]
+                    },
+                    "menu": {
+                      "menuRenderer": {
+                        "items": [
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "runs": [{ "text": "Add to queue" }]
+                              },
+                              "icon": {
+                                "iconType": "ADD_TO_QUEUE_TAIL"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams": "CMgFEP6YBBgFIhMIxduczYe26AIVb1mFCh3yHQTP",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true
+                                  }
+                                },
+                                "signalServiceEndpoint": {
+                                  "signal": "CLIENT_SIGNAL",
+                                  "actions": [
+                                    {
+                                      "addToPlaylistCommand": {
+                                        "openMiniplayer": true,
+                                        "openListPanel": false,
+                                        "videoId": "tQw43U5k69Y",
+                                        "listType": "PLAYLIST_EDIT_LIST_TYPE_QUEUE",
+                                        "onCreateListCommand": {
+                                          "clickTrackingParams": "CMgFEP6YBBgFIhMIxduczYe26AIVb1mFCh3yHQTP",
+                                          "commandMetadata": {
+                                            "webCommandMetadata": {
+                                              "url": "/service_ajax",
+                                              "sendPost": true,
+                                              "apiUrl": "/youtubei/v1/playlist/create"
+                                            }
+                                          },
+                                          "createPlaylistServiceEndpoint": {
+                                            "videoIds": ["tQw43U5k69Y"],
+                                            "hack": true,
+                                            "params": "CAQ%3D"
+                                          }
+                                        },
+                                        "videoIds": ["tQw43U5k69Y"]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "trackingParams": "CMgFEP6YBBgFIhMIxduczYe26AIVb1mFCh3yHQTP"
+                            }
+                          },
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "runs": [
+                                  {
+                                    "text": "Save to Watch later"
+                                  }
+                                ]
+                              },
+                              "icon": {
+                                "iconType": "WATCH_LATER"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true,
+                                    "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                  }
+                                },
+                                "playlistEditEndpoint": {
+                                  "playlistId": "WL",
+                                  "actions": [
+                                    {
+                                      "addedVideoId": "tQw43U5k69Y",
+                                      "action": "ACTION_ADD_VIDEO"
+                                    }
+                                  ]
+                                }
+                              },
+                              "trackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8="
+                            }
+                          },
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "runs": [
+                                  {
+                                    "text": "Save to playlist"
+                                  }
+                                ]
+                              },
+                              "icon": {
+                                "iconType": "PLAYLIST_ADD"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true,
+                                    "apiUrl": "/youtubei/v1/playlist/get_add_to_playlist"
+                                  }
+                                },
+                                "addToPlaylistServiceEndpoint": {
+                                  "videoId": "tQw43U5k69Y"
+                                }
+                              },
+                              "trackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                              "hasSeparator": true
+                            }
+                          },
+                          {
+                            "menuServiceItemRenderer": {
+                              "text": {
+                                "runs": [{ "text": "Hide" }]
+                              },
+                              "icon": {
+                                "iconType": "NOT_INTERESTED"
+                              },
+                              "serviceEndpoint": {
+                                "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                                "commandMetadata": {
+                                  "webCommandMetadata": {
+                                    "url": "/service_ajax",
+                                    "sendPost": true,
+                                    "apiUrl": "/youtubei/v1/dismissal/dismiss"
+                                  }
+                                },
+                                "dismissalEndpoint": {
+                                  "dismissal": "CAQSEDE1ODUxNTExMzcwMDA1ODQaC3RRdzQzVTVrNjlZ",
+                                  "actions": [
+                                    {
+                                      "replaceEnclosingAction": {
+                                        "item": {
+                                          "notificationMultiActionRenderer": {
+                                            "responseText": {
+                                              "runs": [
+                                                {
+                                                  "text": "Video hidden from feed."
+                                                }
+                                              ],
+                                              "accessibility": {
+                                                "accessibilityData": {
+                                                  "label": "Video hidden from feed."
+                                                }
+                                              }
+                                            },
+                                            "trackingParams": "CMcFEKW8ASITCMXbnM2HtugCFW9ZhQod8h0Ezw=="
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "trackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8="
+                            }
+                          }
+                        ],
+                        "trackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                        "accessibility": {
+                          "accessibilityData": {
+                            "label": "Action menu"
+                          }
+                        }
+                      }
+                    },
+                    "channelThumbnailSupportedRenderers": {
+                      "channelThumbnailWithLinkRenderer": {
+                        "thumbnail": {
+                          "thumbnails": [
+                            {
+                              "url": "https://yt3.ggpht.com/-EFCgndEf3Kg/AAAAAAAAAAI/AAAAAAAAAAA/wyYHZZL8S3k/s68-c-k-no-mo-rj-c0xffffff/photo.jpg",
+                              "width": 68,
+                              "height": 68
+                            }
+                          ]
+                        },
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CMQFENwwGAIiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/BobProctorTV",
+                              "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                              "rootVe": 3611
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCh20lfVymrTPkw1nzhutatg",
+                            "canonicalBaseUrl": "/user/BobProctorTV"
+                          }
+                        },
+                        "accessibility": {
+                          "accessibilityData": {
+                            "label": "Go to channel"
+                          }
+                        }
+                      }
+                    },
+                    "thumbnailOverlays": [
+                      {
+                        "thumbnailOverlayToggleButtonRenderer": {
+                          "isToggled": false,
+                          "untoggledIcon": {
+                            "iconType": "WATCH_LATER"
+                          },
+                          "toggledIcon": {
+                            "iconType": "CHECK"
+                          },
+                          "untoggledTooltip": "Watch later",
+                          "toggledTooltip": "Added",
+                          "untoggledServiceEndpoint": {
+                            "clickTrackingParams": "CMYFEPnnAxgCIhMIxduczYe26AIVb1mFCh3yHQTP",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true,
+                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                              }
+                            },
+                            "playlistEditEndpoint": {
+                              "playlistId": "WL",
+                              "actions": [
+                                {
+                                  "addedVideoId": "tQw43U5k69Y",
+                                  "action": "ACTION_ADD_VIDEO"
+                                }
+                              ]
+                            }
+                          },
+                          "toggledServiceEndpoint": {
+                            "clickTrackingParams": "CMYFEPnnAxgCIhMIxduczYe26AIVb1mFCh3yHQTP",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true,
+                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                              }
+                            },
+                            "playlistEditEndpoint": {
+                              "playlistId": "WL",
+                              "actions": [
+                                {
+                                  "action": "ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+                                  "removedVideoId": "tQw43U5k69Y"
+                                }
+                              ]
+                            }
+                          },
+                          "untoggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Watch later"
+                            }
+                          },
+                          "toggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Added"
+                            }
+                          },
+                          "trackingParams": "CMYFEPnnAxgCIhMIxduczYe26AIVb1mFCh3yHQTP"
+                        }
+                      },
+                      {
+                        "thumbnailOverlayToggleButtonRenderer": {
+                          "untoggledIcon": {
+                            "iconType": "ADD_TO_QUEUE_TAIL"
+                          },
+                          "toggledIcon": {
+                            "iconType": "PLAYLIST_ADD_CHECK"
+                          },
+                          "untoggledTooltip": "Add to queue",
+                          "toggledTooltip": "Added",
+                          "untoggledServiceEndpoint": {
+                            "clickTrackingParams": "CMUFEMfsBBgDIhMIxduczYe26AIVb1mFCh3yHQTP",
+                            "commandMetadata": {
+                              "webCommandMetadata": {
+                                "url": "/service_ajax",
+                                "sendPost": true
+                              }
+                            },
+                            "signalServiceEndpoint": {
+                              "actions": [
+                                {
+                                  "addToPlaylistCommand": {
+                                    "openMiniplayer": true,
+                                    "openListPanel": false,
+                                    "videoId": "tQw43U5k69Y",
+                                    "listType": "PLAYLIST_EDIT_LIST_TYPE_QUEUE",
+                                    "onCreateListCommand": {
+                                      "clickTrackingParams": "CMUFEMfsBBgDIhMIxduczYe26AIVb1mFCh3yHQTP",
+                                      "commandMetadata": {
+                                        "webCommandMetadata": {
+                                          "url": "/service_ajax",
+                                          "sendPost": true,
+                                          "apiUrl": "/youtubei/v1/playlist/create"
+                                        }
+                                      },
+                                      "createPlaylistServiceEndpoint": {
+                                        "videoIds": ["tQw43U5k69Y"],
+                                        "hack": true,
+                                        "params": "CAQ%3D"
+                                      }
+                                    },
+                                    "videoIds": ["tQw43U5k69Y"]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "untoggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Add to queue"
+                            }
+                          },
+                          "toggledAccessibility": {
+                            "accessibilityData": {
+                              "label": "Added"
+                            }
+                          },
+                          "trackingParams": "CMUFEMfsBBgDIhMIxduczYe26AIVb1mFCh3yHQTP"
+                        }
+                      },
+                      {
+                        "thumbnailOverlayNowPlayingRenderer": {
+                          "text": {
+                            "runs": [{ "text": "Now playing" }]
+                          }
+                        }
+                      }
+                    ],
+                    "richThumbnail": {
+                      "movingThumbnailRenderer": {
+                        "enableHoveredLogging": true,
+                        "enableOverlay": true
+                      }
+                    }
+                  }
+                }
+              ],
+              "showMoreText": {
+                "runs": [{ "text": "Show more" }]
+              }
+            }
+          },
+          "trackingParams": "CMAFENwcGAAiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+          "menu": {
+            "menuRenderer": {
+              "trackingParams": "CMAFENwcGAAiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+              "topLevelButtons": [
+                {
+                  "buttonRenderer": {
+                    "style": "STYLE_OPACITY",
+                    "size": "SIZE_DEFAULT",
+                    "icon": { "iconType": "VIEW_MODULE" },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CMMFEPBbGAAiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/feed/subscriptions?flow=1",
+                          "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                          "rootVe": 6827
+                        }
+                      },
+                      "browseEndpoint": {
+                        "browseId": "FEsubscriptions",
+                        "params": "MAE%3D"
+                      }
+                    },
+                    "accessibility": {
+                      "label": "Switch to grid view"
+                    },
+                    "tooltip": "Grid",
+                    "trackingParams": "CMMFEPBbGAAiEwjF25zNh7boAhVvWYUKHfIdBM8="
+                  }
+                },
+                {
+                  "buttonRenderer": {
+                    "style": "STYLE_BLUE_TEXT",
+                    "size": "SIZE_DEFAULT",
+                    "icon": { "iconType": "VIEW_LIST" },
+                    "navigationEndpoint": {
+                      "clickTrackingParams": "CMIFEPBbGAEiEwjF25zNh7boAhVvWYUKHfIdBM8=",
+                      "commandMetadata": {
+                        "webCommandMetadata": {
+                          "url": "/feed/subscriptions?flow=2",
+                          "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                          "rootVe": 6827
+                        }
+                      },
+                      "browseEndpoint": {
+                        "browseId": "FEsubscriptions",
+                        "params": "MAI%3D"
+                      }
+                    },
+                    "accessibility": {
+                      "label": "Switch to list view"
+                    },
+                    "tooltip": "List",
+                    "trackingParams": "CMIFEPBbGAEiEwjF25zNh7boAhVvWYUKHfIdBM8="
+                  }
+                }
+              ]
+            }
+          },
+          "subscribeButton": {
+            "buttonRenderer": {
+              "style": "STYLE_BLUE_TEXT",
+              "size": "SIZE_DEFAULT",
+              "isDisabled": false,
+              "text": { "simpleText": "Manage" },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CMEFEPBbIhMIxduczYe26AIVb1mFCh3yHQTP",
+                "commandMetadata": {
+                  "webCommandMetadata": {
+                    "url": "/feed/channels",
+                    "webPageType": "WEB_PAGE_TYPE_BROWSE",
+                    "rootVe": 6827
+                  }
+                },
+                "browseEndpoint": { "browseId": "FEchannels" }
+              },
+              "trackingParams": "CMEFEPBbIhMIxduczYe26AIVb1mFCh3yHQTP"
+            }
+          }
+        }
+      }
+    ],
+    "trackingParams": "CL8FELsvGAAiEwjF25zNh7boAhVvWYUKHfIdBM8="
+  }
+}

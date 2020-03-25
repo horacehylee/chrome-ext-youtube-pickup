@@ -14,15 +14,26 @@ describe("queryVideos", () => {
   });
 
   it("should parse ytVideoContent with Live", () => {
-    const ytVideoContent = require("./../../../sample/ytVideoContent_live.json");
-    const ytVideo = parseContent(ytVideoContent);
-    const expectedYtVideo: YtVideo = {
-      title:
-        "JSNation Conference 2019 - NodeJS Hall",
-      videoId: "-rs-5ZL-f9w",
-      isLive: true
-    };
-    expect(ytVideo).toEqual(expectedYtVideo);
+    {
+      const ytVideoContent = require("./../../../sample/ytVideoContent_live.json");
+      const ytVideo = parseContent(ytVideoContent);
+      const expectedYtVideo: YtVideo = {
+        title: "JSNation Conference 2019 - NodeJS Hall",
+        videoId: "-rs-5ZL-f9w",
+        isLive: true
+      };
+      expect(ytVideo).toEqual(expectedYtVideo);
+    }
+    {
+      const ytVideoContent = require("./../../../sample/ytVideoContent_live_2.json");
+      const ytVideo = parseContent(ytVideoContent);
+      const expectedYtVideo: YtVideo = {
+        title: "Good News with Bob Proctor",
+        videoId: "tQw43U5k69Y",
+        isLive: true
+      };
+      expect(ytVideo).toEqual(expectedYtVideo);
+    }
   });
 
   it("should parse ytInitData", () => {

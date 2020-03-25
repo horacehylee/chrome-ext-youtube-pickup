@@ -62,8 +62,8 @@ const start = (lastSeenVideoId: string) => {
 
   ytDomSelector
     .selectVideoWithRetry(lastSeenVideo, {
-      delayMs: 500,
-      times: 10
+      delayMs: 2000,
+      times: 3
     })
     .subscribe(
       videoElement => {

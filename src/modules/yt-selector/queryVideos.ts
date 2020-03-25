@@ -26,11 +26,12 @@ export const parseContent = (ytVideoContent): YtVideo => {
     "itemSectionRenderer.contents.0.shelfRenderer.content.expandedShelfContentsRenderer.items.0.videoRenderer.title.simpleText",
     null
   );
-  const isLive = dotProp.get(
+  const thumbnailUrl: string | null = dotProp.get(
     ytVideoContent,
-    "itemSectionRenderer.contents.0.shelfRenderer.title.simpleText",
+    "itemSectionRenderer.contents.0.shelfRenderer.content.expandedShelfContentsRenderer.items.0.videoRenderer.thumbnail.thumbnails.0.url",
     null
-  ) === 'Live';
+  );
+  const isLive = thumbnailUrl != null && thumbnailUrl.includes("live");
 
   return {
     videoId,

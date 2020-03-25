@@ -1,8 +1,7 @@
 {
   "name": "Youtube Pickup",
-  "version": "1.0.1",
-  "description":
-    "Track the last youtube video that you scroll to and let you pick up where you left off",
+  "version": "1.0.4",
+  "description": "Track the last youtube video that you scroll to and let you pick up where you left off",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
